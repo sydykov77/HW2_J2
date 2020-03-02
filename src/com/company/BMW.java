@@ -14,6 +14,7 @@ public class BMW extends Car implements Printable{
 
     @Override
     public void print() {
+        super.print();
         System.out.println("Максимальная Скорость:"+maxspeed);
 
     }

@@ -1,6 +1,6 @@
 package com.company;
 
-public class Car {
+public class Car implements Printable {
     private int speed;
     private double volume;
     
@@ -16,5 +16,12 @@ public class Car {
 
     public double getVolume() {
         return volume;
+    }
+
+    @Override
+    public void print() {
+        System.out.println("||Скорость:"+speed+"||"+
+                "Объем:"+volume+"||");
+
     }
 }

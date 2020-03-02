@@ -15,6 +15,7 @@ public class Mercedes extends Car implements Printable{
 
     @Override
     public void print() {
+        super.print();
         System.out.println("Круиз контроль:"+ cruisControl);
 
     }
